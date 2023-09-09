@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <section class="sec-hero" >
-        <div class="hero-over"></div>
-        <div class="container ">
+    
+    <header class="head-sec">
+        <div class="overlay-img"></div>
+        <div class="container">
+            
             <div class="contact">
                 <div class="p-1 email">
                     <a href="#"><i class="fa-regular fa-circle-question"></i>Have a question?</a>
@@ -32,10 +34,10 @@
                     </span>
                 </div>
             </div>
-            <hr style="width: 100%; color: white;">
-            <nav class="navbar navbar-expand-lg ">
+            <hr style="width: 100%; color: white;" >
+            <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">
-                    <a class="navbar-brand  fw-bolder text-white" href="#">Navbar</a>
+                    <a class="navbar-brand text-white fw-bolder" href="#">Learner <span class="text-primary fw-bolder">.</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
                     </button>
@@ -71,7 +73,7 @@
                                 <a class="nav-link text-white" href="#">Contact</a>
                             </li>
                         </ul>
-                        <div class="btn btn-light">Enroll Now</div>
+                        <div class="btn btn-primary ps-3 pe-3">Enroll Now</div>
                     </div>
                 </div>
             </div>
@@ -86,8 +88,8 @@
                 </div>
             </div>
         </div>
-    </section>
 
+    </header>
     <!--
         SEction ONE
      -->
@@ -127,7 +129,7 @@
                             <i class="fa-solid fa-calculator"></i>
                         </div>
                         <div>
-                            <h5>Finance Accounting</h5>
+                            <h5> Accounting</h5>
                             <p>931 courses</p>
                         </div>
                     </div>
@@ -439,7 +441,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="right-sec mt-3">
-                        <video src="./assets/video/about-video.mp4"></video>
+                        <video src="./assets/video/about-video.mp4" controls ></video>
                         <div class="video-back"></div>
                     </div>
                 </div>
@@ -638,7 +640,7 @@
     </section>
     <!-- END SECTION TEN -->
     <!-- START SECTION FOOTER -->
-    <section class="footer">
+    <!-- <section class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -705,13 +707,105 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="footer bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="mt-5 mb-5">
+                        <h5 class="text-white">About Us</h5>
+                    <p class="text-white mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h5 class="text-white">Connect</h5>
+                    <div class="social-connect">
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        </div>
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <div class="circle-social">
+                            <a href="#"><i class="fa-brands fa-behance"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="mt-5 mb-5">
+                        <h5 class="text-white text-center">Projects</h5>
+                        <ul class="project-list text-dark">
+                            <li>Web Design</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>jQuery</li>
+                            <li>Booststrap</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="mt-5 mb-5">
+                        <h5 class="text-white">Gallery</h5>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./assets/images/gal_1.jpg" alt="Gallery photo 1" style="width: 100px;">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/gal_2.jpg" alt="Gallery photo 2" style="width: 100px;">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/gal_3.jpg" alt="Gallery photo 3" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-4">
+                                <img src="./assets/images/gal_4.jpg" alt="Gallery photo 4" style="width: 100px;">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/gal_5.jpg" alt="Gallery photo 5" style="width: 100px;">
+                            </div>
+                            <div class="col-4">
+                                <img src="./assets/images/gal_6.jpg" alt="Gallery photo 6" style="width: 100px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="mt-5 mb-5">
+                        <h5 class="text-light mt-3 ">Contact</h5>
+                        <p class="mt-5 text-light">43 Raymounth Rd.Baltemoar,London 3910</p>
+                        <p class="mt-2">+1(123)-456-7890</p>
+                        <p class="">+1(123)-456-7890</p>
+                        <p class="">+1(123)-456-7890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
 
 
-
+    <script>
+        const nave1= document.querySelector('.navbar');
+        window.addEventListener('scroll',function(){
+            if(window.scrollY>10){
+                nave1.classList.add('nav-scrolled');
+            }else if(window.scrollY<10){
+                nave1.classList.remove('nav-scrolled');
+            }
+        })
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
